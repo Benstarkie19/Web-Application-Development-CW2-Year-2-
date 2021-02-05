@@ -1,0 +1,192 @@
+<html>
+<head>
+  <meta name ="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Coursework2_WebApp</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mdb.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+<body>
+
+  <nav class="navbar navbar-expand-sm">
+    <!-- CW LOGO -->
+    <a class="navbar-brand" href="index.html">CIS2169: CW 2</a>
+
+    <!-- Links WITH THE BTN Need  change -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><button id ="btn">Legacy Fetch modules</button></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><button id ="btn">Degree Programmes</button></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="modules.html"><button id ="btn">Modules</button></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><button id ="btn">Assessments</button></a>
+      </li>
+    </ul>
+  </nav>
+  <br>
+
+
+
+  <div class="container">
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0 d-inline">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      BA (Hons) Television Production Management 
+                    </button>
+                 </h5>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <p class="card-text"><b>Learning Outcomes:</b></p>
+                <ul>
+                  <li>LO1</li>
+                  <li>LO2</li>
+                  <li>LO3</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <p class="card-text"><b>Exit Awards:</b></p>
+                <ul>
+                  <li>EA1</li>
+                  <li>EA2</li>
+                  <li>EA3</li>
+                </ul>
+              </div>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body" id="child1">
+                    <div class="card">
+                        <div class="card-header">
+                            <a href="#" data-toggle="collapse" data-target="#collapseOneA">MED1210:  Production Coordination (20 CREDITS)</a>
+                        </div>
+                        <div class="card-body collapse" data-parent="#child1" id="collapseOneA">
+                          <div class="row mb-3">
+                            <div class="col-md-6">
+                              <p class="card-text"><b>Learning Outcomes:</b></p>
+                              <ul>
+                                <li>LO1</li>
+                                <li>LO2</li>
+                                <li>LO3</li>
+                              </ul>
+                            </div>
+                            <div class="col-md-6">
+                              <p class="card-text"><b>Exit Awards:</b></p>
+                              <ul>
+                                <li>Number Of Hours: 36</li>
+                                <li>Number Of Credits: 20</li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="card">
+                              <div class="card-header">
+                                  <a href="#" data-toggle="collapse" data-target="#collapseOneC">A-0: Assessment 1</a>
+                              </div>
+                              <div class="card-body collapse" data-parent="#child4" id="collapseOneC">
+                                <div class="col-md-6">
+                                  <p class="card-text"><b>Learning Outcomes:</b></p>
+                                  <ul>
+                                    <li>LO1</li>
+                                    <li>LO2</li>
+                                    <li>LO3</li>
+                                  </ul>
+                                </div>
+                                <div class="col-md-6">
+                                  <p class="card-text"><b>Volume: </b></p>
+                                  <ul>
+                                    <li>2000 words</li>
+                                  </ul>
+                                </div>
+                                <div class="col-md-6">
+                                  <p class="card-text"><b>Weight:</b></p>
+                                  <ul>
+                                    <li>80%</li>
+                                  </ul>
+                                </div>
+                              </div>
+                              </div>
+                          </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body" id="childE">
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#" data-toggle="collapse" data-target="#collapseOneE">MED1212: Script to Screen: Location Scouting/Casting (20 CREDITS)</a>
+                    </div>
+                    <div class="card-body collapse" data-parent="#childE" id="collapseOneE">
+                      <div class="row mb-3">
+                        <div class="col-md-6">
+                          <p class="card-text"><b>Learning Outcomes:</b></p>
+                          <ul>
+                            <li>LO1</li>
+                            <li>LO2</li>
+                            <li>LO3</li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6">
+                          <p class="card-text"><b>Exit Awards:</b></p>
+                          <ul>
+                            <li>Number Of Hours: 36</li>
+                            <li>Number Of Credits: 20</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card">
+                          <div class="card-header">
+                              <a href="#" data-toggle="collapse" data-target="#collapseOneF">A-1: Assessment 2</a>
+                          </div>
+                          <div class="card-body collapse" data-parent="#childF" id="collapseOneF">
+                            <div class="col-md-6">
+                              <p class="card-text"><b>Learning Outcomes:</b></p>
+                              <ul>
+                                <li>LO1</li>
+                                <li>LO2</li>
+                                <li>LO3</li>
+                              </ul>
+                            </div>
+                            <div class="col-md-6">
+                              <p class="card-text"><b>Volume: </b></p>
+                              <ul>
+                                <li>2000 words</li>
+                              </ul>
+                            </div>
+                            <div class="col-md-6">
+                              <p class="card-text"><b>Weight:</b></p>
+                              <ul>
+                                <li>80%</li>
+                              </ul>
+                            </div>
+                          </div>
+                          </div>
+                      </div>
+
+
+
+            </div>
+        </div>
+    </div>
+<!-- /.container -->
+
+  </header>
+
+  <div id="module-info"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
